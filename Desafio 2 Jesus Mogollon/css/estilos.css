@@ -1,0 +1,419 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor
+{
+    width: 100%;
+    height: 210px;
+    background: #337DFF;
+}
+header > h1
+{
+    position: absolute;
+    top: 118px;
+}
+figure
+{
+    float: left;
+}
+figure > img
+{
+    width: 20%;
+    position: absolute;
+    top: -65px;
+    
+}
+nav li
+{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: 160px;
+    margin: 15px;
+   
+}
+a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#button
+{
+    position: relative;
+    float: right;
+    right:0px;
+    color: black;
+    font-size: 20px;
+    top: 100px;
+    margin: 15px;
+}
+#mundo
+{
+    position: relative;
+    float:right;
+    color:black;
+    left:170px;
+}
+.fa-shopping-cart
+{
+    position: relative;
+    top:-30px;
+    left: -45px;
+    font-size: 30px;
+}
+.fa-user
+{
+    position: relative;
+    top:-30px;
+    left: -45px;
+    font-size: 30px;
+}
+.fa-globe-americas
+{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 30px;
+}
+button
+{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    background: white;
+}
+.fa-search
+{
+    position: relative;
+    left: -50px;
+}
+.fa-angle-left
+{
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    color: beige;
+    left: 3%;
+   
+}
+.fa-angle-right
+{
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    right: 3%;
+    color: beige;
+   
+}
+
+.banner
+{
+    height:490px;
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.pie-pagina
+{
+    width: 100%;
+    clear: both;
+    text-align: center;
+
+}
+p
+{
+    font-size: 20px;
+}
+
+
+/*REGISTRARSE*/
+.contenedor-registrarse
+{
+ background: #337DFF;
+ width: 100%;
+ height: 170px;
+ position:absolute;
+ text-align: center;
+}
+.contenedor-registrarse img
+{
+    position: relative;
+    left:515px;
+    width: 300px;
+    top: -80px;
+ 
+}
+.contenedor-registrarse h1 {left: 480px;}
+
+.formulario
+{
+    position: relative;
+    top: 200px;
+    background: #5DADE2;
+    height: 400px;
+    width: 500px;
+    left: 450px;
+    border-radius: 8px;
+}
+.texto
+{
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    top: 20px;
+}
+input
+{
+    
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 300px;
+    height: 25px;
+    
+}
+h4
+{
+    text-align: center;
+    font-size: 20px;
+    top: 50px;
+    position: relative;
+}
+
+h2
+{
+    text-align: center;
+}
+.boton-enviar
+{
+    position: relative;
+    top: 70px;
+    left:130px ;
+}
+
+
+
+
+
+/*LOGIN*/
+.formulario-login
+{
+    position: relative;
+    top: 250px;
+    left: 33%;
+    background: #5DADE2;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formulario-input-contenedor label
+ {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+  
+  }
+  .formulario-input
+   {
+    margin: 10px 0;
+    width: 80%;
+    padding: 2px;
+    border: 1px solid ;
+    position: relative;
+    left: 10px;
+    top: 5px;
+  }
+
+  .boton-login
+  {
+    position: relative;
+     top: 20px;
+     background:white;
+     color: black;
+     border-radius: 12px;
+     padding: 10px;
+  }
+
+
+
+
+  /*Procesar Pago*/
+  
+ .seleccionar-texto
+  {
+      position: relative;
+      top: 150px;
+      left: -240px;
+  }
+  .direccion
+  {
+     
+      position: relative;
+      top: 150px;
+      left: 45px;
+      width: 27%;
+      border: solid;
+      
+  }
+  .boton-direccion
+  {
+      background: #337DFF;
+      position: relative;
+      left: 140px;
+      top: 160px;
+  }
+  .texto-formas
+  {
+      top: 20px;
+      left: 0px;
+  }
+  .pagos
+  {
+    
+      width: 20%;
+      position: relative;
+      left: 550px;
+      top: 40px;
+  }
+
+  .pagos a
+  {
+    color: black;
+  }
+  .radios
+  {
+      width: 5%;
+      height: 15px;
+      position: relative;
+      left: 550px;
+      margin: 5px;
+      top: 70px;
+  }
+  .fa-cc-visa  
+  {
+    font-size: 25px;
+    position: relative;
+    top: 68px;
+    left: 380px;
+  }
+  
+ .fa-cc-paypal
+ {
+    font-size: 25px;
+    position: relative;
+    top: 68px;
+    left: 260px;
+ }
+.fa-cc-mastercard
+{
+    font-size: 25px;
+    position: relative;
+    top: 68px;
+    left: 460px;
+}
+.finalizar
+{
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    color: black;
+    background: #337DFF;
+}
+.factura
+{
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 27%;
+    border: solid;
+}
+.texto-factura
+{
+    float: right;
+    position: relative;
+    right: 250px;
+    top:-30px;
+
+}
+
+/*Carrito*/
+.articulos-carrito
+{
+    
+    position: relative;
+    top: 20px;
+}
+
+.imagenes-productos
+{
+    float: left;
+    margin: 9px;
+}
+#boton-pago
+{
+    position: relative;
+    padding: 10px;
+    background: #337DFF;
+    top: 30px;
+    left: 50px;
+}
+
+
+/* informacion de un producto   */
+
+#imagen-info
+{
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+#texto-informacion
+{
+    width: 380px;
+    height: 250px;
+    position: relative;
+    left: 280px;
+    text-align: justify;
+    top: -250px;
+    border: solid;
+}
+#info-comprar
+{
+    background: #337DFF;
+    padding: 10px;
+    position: relative;
+    top: -220px;
+    margin: 5px;
+}
+#agre-comprar
+{
+    background: #337DFF;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: -220px;
+    margin: 5px;
+}
+#acerca
+{
+    border: solid;
+    position: relative;
+    top: -200px;
+}
